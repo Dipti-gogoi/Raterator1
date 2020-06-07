@@ -1,0 +1,111 @@
+*, *:before, *:after{
+	box-sizing:border-box;
+    padding:0; 
+    margin:0;
+	text-decoration:none;
+}
+
+body { 
+    background-color:#f0f0f9;
+    margin-bottom: 5rem;
+}
+
+main{
+        background-color:#e0e0e0;
+        border:solid 1px gainsboro;
+}
+
+.hamburger-Menu
+{
+        width: 30px;
+        height: 5px;
+        background-color:#303030;
+        margin: 4px;
+
+}
+
+.Card{
+    background-color:#ffffff;
+    margin-top:20px; 
+    padding:2rem;
+    padding-bottom: 1rem; 
+    margin: 0 auto;
+    position: relative;
+ 
+}
+ .Card1{
+       width:80%;       
+       margin: 0 auto;
+       background-color:#ffffff;
+       border:solid 1px #a0a0a0;
+       margin-top:20px auto; 
+       padding:1rem;
+       padding-bottom: 0; 
+     } 
+.Card2{
+        margin-top: 0rem;
+        margin: 1rem;
+        padding: 1.5rem;
+        text-align: center;  
+    }
+    
+.buttonMenu{
+     width:80%; 
+     height:10%;
+     margin:0 auto; 
+     padding:0.5rem;    
+     background-color:#f0f0f9;
+     border:solid 1px #a0a0a0;   
+ }    
+
+.likeButton{
+    padding: 0.5rem;
+    font-size: 0.7rem, roboto uppercase, #303003;
+    background-color:black;    
+    color: white;  
+    text-align: center;
+    border: none;
+    margin: 3px 4px;
+}
+
+.reviewButton{ 
+    padding: 0.5rem;
+    font-size: 0.7rem, roboto uppercase, #303003;
+    float: right;
+    background-color:black;    
+    color: white;  
+    text-align: center;
+    border: none;
+    margin: 3px 4px;
+}
+
+.Logo
+{
+    width: 1.5rem;
+    right: 1.5rem;
+    left:1.5rem;
+    height: 2rem;
+    margin: 1.5rem auto;
+    padding: 1.5rem;
+}
+
+.Logo img{
+    width: 40px;
+    height: auto;
+    justify-content: center;
+}
+
+.InstructorName{
+    font-size: 1rem;
+    font-family:roboto;
+    color: black;
+    
+}
+
+.SchoolName{
+    font: 0.7rem;
+    font-family:roboto;
+    color: #606060;
+    margin: 1rem;
+}
+
